@@ -12,5 +12,10 @@
             "name": "Robert Moore",
             "email": "robert@sliske.uk"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "RMoore\\Builders\\": "src/"
+        }
+    }
 }
