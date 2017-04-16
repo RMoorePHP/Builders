@@ -23,7 +23,7 @@ class ControllerBuildCommand extends ControllerMakeCommand
     {
         if ($this->option('model')) {
             return __DIR__.'/stubs/controller.model.stub';
-        
+        }
         return parent::getStub();
     }
 
