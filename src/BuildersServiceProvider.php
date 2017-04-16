@@ -3,6 +3,8 @@ namespace RMoore\Builders;
 
 use Illuminate\Support\ServiceProvider;
 
+use RMoore\Builders\Console\{ModelBuildCommand, ControllerBuildCommand};
+
 class BuildersServiceProvider extends ServiceProvider
 {
     /**
