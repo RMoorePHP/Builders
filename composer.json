@@ -1,0 +1,16 @@
+{
+    "name": "rmoore/builders",
+    "description": "A series or commands to help building classes for laravel 5.4",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^5.4",
+        "illuminate/console": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Moore",
+            "email": "robert@sliske.uk"
+        }
+    ]
+}
