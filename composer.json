@@ -17,5 +17,12 @@
         "psr-4": {
             "RMoore\\Builders\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RMoore\Builders\\BuildersServiceProvider"
+            ]
+        }
     }
 }
